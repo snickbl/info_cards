@@ -1,0 +1,99 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-cont button {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #0478FF;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.button:last-child {
+    margin-left: 5px;
+}
+
+.head-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-cont h1 {
+    margin: 20px 0;
+}
+
+#showmorebtn {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #0478FF;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.button {
+    margin: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #0478FF;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.articles {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.greenCard {
+    background-color: darkslategray;
+    color: #f5f5f5;
+}
+
+.greyCard {
+    color: #f5f5f5;
+    background-color: darkgray;
+}
+
+.yellowCard{
+    background-color: yellow;
+    color: #1f1f1f;
+}
+
+.smallCard {
+    padding: 10px;
+    margin: 5px;
+    min-height: 150px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.bigCard {
+    padding: 10px;
+    margin: 5px;
+    min-height: 150px;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.articleHeader {
+    height: 30px;
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+}
+
+.text{
+    height: 50px;
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+}
+
+.photos {
+    width: 75%;
+}

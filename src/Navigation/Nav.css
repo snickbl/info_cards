@@ -1,0 +1,43 @@
+.navig {
+    position: static;
+    display: flex;
+    background-color: darkslategrey;
+    width: 100%;
+  }
+  
+  .navs > a {
+    margin: 10px;
+    margin: -0.625em 10px 10px 10px;
+    text-decoration: none;
+    line-height: 3.5em;
+    color: darkgray;
+  }
+  
+  h2.intro {
+    display: inline-block;
+    margin: 10px;
+    color: aliceblue;
+    }
+  
+  .active-route {
+    color: aliceblue !important;
+  }
+  
+  .article {
+    position: static;
+    margin: auto;
+    margin-left:auto;
+    margin-right:auto;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    height: 85%;
+    background-color: red;
+  }
+  
+  .Articles {
+    display: flex;
+    position: static;
+    justify-content: center;
+  }
+  
